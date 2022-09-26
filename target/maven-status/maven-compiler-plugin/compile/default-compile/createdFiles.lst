@@ -1,0 +1,5 @@
+edu/finki/gjoko/services/ServicesApplication.class
+edu/finki/gjoko/services/controllers/IndexController.class
+edu/finki/gjoko/services/controllers/GuessNumberController.class
+edu/finki/gjoko/services/ServletInitializer.class
+edu/finki/gjoko/services/controllers/DateController.class

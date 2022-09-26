@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guess Number</title>
+</head>
+<body>
+<span th:if="${result == -1}">Your guess is incorrect. The number I imagined is higher</span>
+<span th:if="${result == 0}">You guessed correctly!</span>
+<span th:if="${result == 1}">Your guess is incorrect. The number I imagined is lower.</span>
+</body>
+</html>

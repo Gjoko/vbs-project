@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Current Date</title>
+</head>
+<body>
+<text th:if="${hasInvalidParams}">INVALID OPERАTION - the service only functions either without any parameters or with the parameter "time", used with or without a value</text>
+<text th:unless="${hasInvalidParams}" th:text="${time}"></text>
+</body>
+</html>
